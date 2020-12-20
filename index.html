@@ -1,24 +1,113 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <title>CodersCamp | Projekt 1 - HTML i CSS</title>
-    <meta name="description" content="CodersCamp to darmowy, otwarty kurs programowania webowego we Wrocławiu. Sprawdź, czego nauczysz się na CodersCamp i spróbuj swoich sił w branży IT!">
-    <link href="https://fonts.googleapis.com/css?family=Saira+Condensed:400,700|Saira:300,400&amp;subset=latin-ext" rel="stylesheet">
-    <link rel="stylesheet" href="./dist/css/main.css">
-</head>
-<body>
-<header>
-    <div class="welcome">
+    <meta
+      name="description"
+      content="CodersCamp to darmowy, otwarty kurs programowania webowego we Wrocławiu. Sprawdź, czego nauczysz się na CodersCamp i spróbuj swoich sił w branży IT!"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Saira+Condensed:400,700|Saira:300,400&amp;subset=latin-ext"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./dist/css/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="welcome">
         <p>witaj!</p>
         <h1>jestem Justyna Sobczak</h1>
         <h2>junior web developer</h2>
         <button>Zobacz moje portfolio</button>
-    </div>
-    <img src="./images/js-profile.jpg" alt="Zdjęcie Justyna Sobczak">
-</header>
-</body>
+      </div>
+      <img src="./images/js-profile.jpg" alt="Zdjęcie Justyna Sobczak" />
+    </header>
+    <section class="portfolio">
+      <h1>Zrealizowałam projekty, z których jestem dumna</h1>
+      <div class="project clearfix">
+        <div class="web">
+          <img src="images/cat.PNG" alt="portfolio - Galeria kotów" />
+        </div>
+        <div class="about">
+          <h2>Galeria kotów</h2>
+          <p>
+            Aplikacja galerii zdjęć stworzona w środowisku ReactJS. Projekt
+            powstał w oparciu o publiczny interfejs API. Do zarządzania stanem
+            aplikacji wykorzystano bibliotekę Redux. Biblioteki zewnętrzne były
+            używane do wyświetlania niestandardowego ładowania spinner-packman i
+            niestandardowego modalu alertów. Do przechowywania informacji o
+            obrazach ulubionych użytkowników wykorzystano pamięć lokalną. Wersja
+            DEMO dostępna pod
+            <a href="https://zealous-raman-ecaf9c.netlify.app/"
+              >>> linkiem <<</a
+            >
+          </p>
+        </div>
+      </div>
+      <div class="project clearfix">
+        <div class="web">
+          <img src="images/hangman.PNG" alt="portfolio - Gra w wisielca" />
+        </div>
+        <div class="about">
+          <h2>Gra w wisielca (hangman)</h2>
+          <p>
+            Projekt został stworzony w środowisku ReactJs. Obraz wisielca jest
+            rysowany dynamicznie, na płótnie canvas html. Wykorzystano
+            bibliotekę "sweet alert" do wyświetlania niestandardowego trybu
+            alertów. Wersja DEMO dostępna pod
+            <a href="https://serene-curie-66f858.netlify.app/">>>linkiem<<</a>
+          </p>
+        </div>
+      </div>
+      <div class="project clearfix">
+        <div class="web">
+          <img
+            src="images/cards-game.PNG"
+            alt="portfolio - gra karciana 'Oczko'"
+          />
+        </div>
+        <div class="about">
+          <h2>Gra karciana "Oczko"</h2>
+          <p>
+            Gra oparta na funkcjonalnym szkielecie ReactJS z wykorzystaniem
+            hook'ów. Projekt korzysta z zewnętrznego interfejsu API. Aplikacja
+            używa techniki Redux i useState-hook do zarządzania stanem
+            aplikacji. Gracz może wybrać jednen z dwóch paneli: gra dla jednego
+            lub wielu graczy. Panel dla pojedynczego gracza umożliwia partię gry
+            z komputerem. Panel gry wieloosobowej zaprojektowany został dla
+            czterech graczy, którzy mają możliwość przybierania różnych
+            pseudonimów.
+          </p>
+        </div>
+      </div>
+      <div class="project clearfix">
+        <div class="web">
+          <img
+            src="images/workers-list.PNG"
+            alt="portfolio - baza danych pracowników"
+          />
+        </div>
+        <div class="about">
+          <h2>Baza danych pracowników</h2>
+          <p>
+            Projekt został utworzony w środowisku ReactJS. Początkowe dane
+            zawarte są w obiekie, do którego można dodawać kolejne dane (nowych
+            pracowników). Do obsługi formularza wykorzystano bibliotekę
+            "react-select". Wersja demo dostępna pod
+            <a
+              href="https://condescending-wright-d5c262.netlify.app/?fbclid=IwAR1nwxrZ8seQYK2KnvDS741b6sE3ggv5xFaWuLDzTHX5GNLq4VgQIkoKWIs"
+            >
+              >>linkiem<<
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

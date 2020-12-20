@@ -1,5 +1,29 @@
+/*
+font-family: 'Saira',
+sans-serif;
+font-family: 'Saira Condensed',
+sans-serif;
+*/
+
+:root{
+  --orange: #ee7752;
+  --pink: #e73c7e;
+  --light-blue: #23a6d5;
+  --turkus: #23d5ab;
+  --gold: #e7c61b;
+  --dark-gray: #111;
+  --black: black;
+  --white: white;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }
