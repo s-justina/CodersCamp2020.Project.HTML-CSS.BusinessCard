@@ -1,0 +1,63 @@
+.tech h1 {
+  font-family: "saira condensed", sans-serif;
+  padding: 20px;
+  text-align: center;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+.tech .tech-container .logo{
+  display: flex;
+  flex-wrap: wrap;
+justify-content: center;
+}
+
+.tech .tech-container .logo img{
+  height: 20vw;
+  padding: 5px 10px;
+}
+
+.tech .tech-container .txt{
+  max-width: 1400px;
+  margin: 20px auto;
+  color: var(--dark-gray);
+  font-family: "Saira", sans-serif;
+  font-weight: normal;
+  padding: 10px 20px 20px 0;
+  text-align: center;
+  font-size: 12px;
+  padding-left: 20px;
+}
+
+.tech .tech-container .txt span{
+  font-weight: bold;
+}
+
+@media (min-width: 410px) {
+  .tech .tech-container .logo img{
+    height: 10vw;
+    padding: 5px 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .tech h1 {
+    font-size: 40px;
+  }
+  .tech .tech-container .txt{
+    font-size: 18px;
+  }
+}
+
+@media (orientation: landscape){
+  .tech .tech-container .logo img{
+    height: 10vw;
+    padding: 5px 10px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1400px) {
+  .tech h1 {
+    font-size: 60px;
+    padding: 30px 0;
+  }
+}
