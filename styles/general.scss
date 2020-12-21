@@ -23,10 +23,14 @@ sans-serif;
   box-sizing: border-box;
 }
 
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
+a{
+  color: var(--dark-gold);
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover{
+  letter-spacing: 2px;
 }
 
 .wrapper{

@@ -121,10 +121,13 @@ sans-serif;
   padding: 0;
   box-sizing: border-box; }
 
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both; }
+a {
+  color: var(--dark-gold);
+  text-decoration: none;
+  transition: .3s; }
+
+a:hover {
+  letter-spacing: 2px; }
 
 .wrapper {
   display: flex;
@@ -158,7 +161,7 @@ header img {
   right: 0;
   margin: auto;
   opacity: .9;
-  box-shadow: 15px 15px 30px var(--gold); }
+  box-shadow: 5px 5px 10px var(--gold); }
 
 header div.welcome {
   z-index: 1;
