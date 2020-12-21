@@ -92,18 +92,21 @@
     background-color: var(--white); } }
 
 footer {
-  background-color: var(--light-blue);
+  background: linear-gradient(-45deg, var(--orange), var(--pink), var(--light-blue), var(--turkus));
   color: var(--gold);
   font-family: saira, sans-serif;
   text-align: center;
   padding: 20px;
-  font-size: 20px; }
+  font-size: 20px;
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite; }
 
 /*
 font-family: 'Saira',
 sans-serif;
 font-family: 'Saira Condensed',
 sans-serif;
+font-family: 'Dancing Script', cursive;
 */
 :root {
   --orange: #ee7752;
@@ -133,6 +136,14 @@ a:hover {
   display: flex;
   flex-direction: column; }
 
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
 header {
   position: relative;
   height: 100vh;
@@ -142,14 +153,6 @@ header {
   background: linear-gradient(-45deg, var(--orange), var(--pink), var(--light-blue), var(--turkus));
   background-size: 400% 400%;
   animation: gradient 15s ease infinite; }
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%; }
-  50% {
-    background-position: 100% 50%; }
-  100% {
-    background-position: 0% 50%; } }
 
 header > * {
   position: absolute; }
@@ -466,9 +469,8 @@ header button {
     width: 50%;
     overflow: hidden; }
   .portfolio .web .img {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%); }
+    min-height: 100%;
+    min-width: 100%; }
   .portfolio .about {
     width: 50%; }
   .portfolio .about h2 {
@@ -523,7 +525,8 @@ header button {
 
 .slogan p.author {
   margin-top: 20px;
-  font-size: 12px; }
+  font-size: 12px;
+  font-family: 'Dancing Script', cursive; }
 
 .slogan .bg {
   padding: 30px 10px;
