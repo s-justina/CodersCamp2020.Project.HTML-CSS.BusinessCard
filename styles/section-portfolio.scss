@@ -5,8 +5,7 @@
 
 .portfolio h1 {
   font-size: 28px;
-  font-family: 'Saira Condensed',
-  sans-serif;
+  font-family: "Saira Condensed", sans-serif;
   text-transform: uppercase;
   color: var(--white);
   text-align: center;
@@ -14,14 +13,25 @@
   margin-bottom: 15px;
 }
 
-.portfolio .web img {
+.portfolio-section-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-section-wrapper .small-container {
+  display: flex;
+  flex-direction: column;
+}
+.portfolio .web {
+  width: 100%;
+}
+.portfolio .web .img {
   width: 100%;
 }
 
 .portfolio .about {
   color: var(--white);
-  font-family: 'Saira',
-  sans-serif;
+  font-family: "Saira", sans-serif;
   font-weight: normal;
   padding: 10px 20px 20px 0;
   text-align: left;
@@ -53,12 +63,37 @@
   background-color: var(--light-blue);
 }
 
-@media (min-width:768px) {
-
+@media (min-width: 768px) {
   .portfolio h1 {
     font-size: 40px;
   }
 
+  .portfolio-section-wrapper .small-container {
+    flex-direction: row;
+  }
+
+  .portfolio .project {
+    margin-bottom: 40px;
+  }
+
+  .web,
+  .about {
+    min-height: 300px;
+  }
+
+  .portfolio .web {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+  }
+  .portfolio .web .img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .portfolio .about {
+    width: 50%;
+  }
   .portfolio .about h2 {
     font-size: 28px;
     text-indent: 40px;
@@ -69,39 +104,22 @@
     padding-left: 40px;
   }
 
-  .portfolio .project {
-    margin-bottom: 40px;
+  .portfolio-section-wrapper .small-container:nth-of-type(even) {
+    flex-direction: row-reverse;
   }
 
-}
-
-@media (orientation: landscape) {
-  .web,
-  .about {
-    width: 50%;
-    float: left;
-  }
-
-  .web img {
-    display: block;
-  }
-
-  .portfolio .project:nth-of-type(even) .web {
-    float: right;
-
-  }
-  .portfolio .project:nth-of-type(even) .about {
+  .portfolio-section-wrapper .project:nth-of-type(even) .about {
     padding-right: 0;
   }
-  .portfolio .project:nth-of-type(even) .about p {
+
+  .portfolio-section-wrapper .project:nth-of-type(even) .about p {
     padding-right: 20px;
   }
-  .portfolio .project:nth-of-type(even) .about h2 {
+
+  .portfolio-section-wrapper .project:nth-of-type(even) .about h2 {
     text-indent: 0;
     margin-left: 40px;
   }
-
-
 }
 
 

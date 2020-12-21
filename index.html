@@ -22,92 +22,108 @@
     <header>
       <div class="welcome">
         <p>witaj!</p>
-        <h1>jestem Justyna Sobczak</h1>
-        <h2>junior web developer</h2>
+        <h1>nazywam się Justyna Sobczak</h1>
+        <h2>jestem web developer'em</h2>
         <button>Zobacz moje portfolio</button>
       </div>
       <img src="./images/js-profile.jpg" alt="Zdjęcie Justyna Sobczak" />
     </header>
-    <section class="portfolio">
-      <h1>Zrealizowałam projekty, z których jestem dumna</h1>
-      <div class="project clearfix">
-        <div class="web">
-          <img src="images/cat.PNG" alt="portfolio - Galeria kotów" />
+    <div class="wrapper">
+      <section class="portfolio">
+        <h1>Zrealizowałam projekty, z których jestem dumna</h1>
+        <div class="portfolio-section-wrapper">
+          <div class="project small-container">
+            <div class="web">
+              <img
+                class="img"
+                src="images/cat.PNG"
+                alt="portfolio - Galeria kotów"
+              />
+            </div>
+            <div class="about">
+              <h2>Galeria kotów</h2>
+              <p>
+                Aplikacja galerii zdjęć stworzona w środowisku ReactJS. Projekt
+                powstał w oparciu o publiczny interfejs API. Do zarządzania
+                stanem aplikacji wykorzystano bibliotekę Redux. Biblioteki
+                zewnętrzne były używane do wyświetlania niestandardowego
+                ładowania spinner-packman i niestandardowego modalu alertów. Do
+                przechowywania informacji o obrazach ulubionych użytkowników
+                wykorzystano pamięć lokalną. Wersja DEMO dostępna pod
+                <a href="https://zealous-raman-ecaf9c.netlify.app/"
+                  >>> linkiem <<</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="project small-container">
+            <div class="web">
+              <img
+                class="img"
+                src="images/hangman.PNG"
+                alt="portfolio - Gra w wisielca"
+              />
+            </div>
+            <div class="about">
+              <h2>Gra w wisielca</h2>
+              <p>
+                Projekt został stworzony w środowisku ReactJs. Obraz wisielca
+                jest rysowany dynamicznie, na płótnie canvas html. Wykorzystano
+                bibliotekę "sweet alert" do wyświetlania niestandardowego trybu
+                alertów. Wersja DEMO dostępna pod
+                <a href="https://serene-curie-66f858.netlify.app/"
+                  >>>linkiem<<</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="project small-container">
+            <div class="web">
+              <img
+                class="img"
+                src="images/cards-game.PNG"
+                alt="portfolio - gra karciana 'Oczko'"
+              />
+            </div>
+            <div class="about">
+              <h2>Gra karciana "Oczko"</h2>
+              <p>
+                Gra oparta na funkcjonalnym szkielecie ReactJS z wykorzystaniem
+                hook'ów. Projekt korzysta z zewnętrznego interfejsu API.
+                Aplikacja używa techniki Redux i useState-hook do zarządzania
+                stanem aplikacji. Gracz może wybrać jednen z dwóch paneli: gra
+                dla jednego lub wielu graczy. Panel dla pojedynczego gracza
+                umożliwia partię gry z komputerem. Panel gry wieloosobowej
+                zaprojektowany został dla czterech graczy, którzy mają możliwość
+                przybierania różnych pseudonimów.
+              </p>
+            </div>
+          </div>
+          <div class="project small-container">
+            <div class="web">
+              <img
+                class="img"
+                src="images/workers-list.PNG"
+                alt="portfolio - baza danych pracowników"
+              />
+            </div>
+            <div class="about">
+              <h2>Baza danych pracowników</h2>
+              <p>
+                Projekt został utworzony w środowisku ReactJS. Początkowe dane
+                zawarte są w obiekie, do którego można dodawać kolejne dane
+                (nowych pracowników). Do obsługi formularza wykorzystano
+                bibliotekę "react-select". Wersja demo dostępna pod
+                <a
+                  href="https://condescending-wright-d5c262.netlify.app/?fbclid=IwAR1nwxrZ8seQYK2KnvDS741b6sE3ggv5xFaWuLDzTHX5GNLq4VgQIkoKWIs"
+                >
+                  >>linkiem<<
+                </a>
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="about">
-          <h2>Galeria kotów</h2>
-          <p>
-            Aplikacja galerii zdjęć stworzona w środowisku ReactJS. Projekt
-            powstał w oparciu o publiczny interfejs API. Do zarządzania stanem
-            aplikacji wykorzystano bibliotekę Redux. Biblioteki zewnętrzne były
-            używane do wyświetlania niestandardowego ładowania spinner-packman i
-            niestandardowego modalu alertów. Do przechowywania informacji o
-            obrazach ulubionych użytkowników wykorzystano pamięć lokalną. Wersja
-            DEMO dostępna pod
-            <a href="https://zealous-raman-ecaf9c.netlify.app/"
-              >>> linkiem <<</a
-            >
-          </p>
-        </div>
-      </div>
-      <div class="project clearfix">
-        <div class="web">
-          <img src="images/hangman.PNG" alt="portfolio - Gra w wisielca" />
-        </div>
-        <div class="about">
-          <h2>Gra w wisielca (hangman)</h2>
-          <p>
-            Projekt został stworzony w środowisku ReactJs. Obraz wisielca jest
-            rysowany dynamicznie, na płótnie canvas html. Wykorzystano
-            bibliotekę "sweet alert" do wyświetlania niestandardowego trybu
-            alertów. Wersja DEMO dostępna pod
-            <a href="https://serene-curie-66f858.netlify.app/">>>linkiem<<</a>
-          </p>
-        </div>
-      </div>
-      <div class="project clearfix">
-        <div class="web">
-          <img
-            src="images/cards-game.PNG"
-            alt="portfolio - gra karciana 'Oczko'"
-          />
-        </div>
-        <div class="about">
-          <h2>Gra karciana "Oczko"</h2>
-          <p>
-            Gra oparta na funkcjonalnym szkielecie ReactJS z wykorzystaniem
-            hook'ów. Projekt korzysta z zewnętrznego interfejsu API. Aplikacja
-            używa techniki Redux i useState-hook do zarządzania stanem
-            aplikacji. Gracz może wybrać jednen z dwóch paneli: gra dla jednego
-            lub wielu graczy. Panel dla pojedynczego gracza umożliwia partię gry
-            z komputerem. Panel gry wieloosobowej zaprojektowany został dla
-            czterech graczy, którzy mają możliwość przybierania różnych
-            pseudonimów.
-          </p>
-        </div>
-      </div>
-      <div class="project clearfix">
-        <div class="web">
-          <img
-            src="images/workers-list.PNG"
-            alt="portfolio - baza danych pracowników"
-          />
-        </div>
-        <div class="about">
-          <h2>Baza danych pracowników</h2>
-          <p>
-            Projekt został utworzony w środowisku ReactJS. Początkowe dane
-            zawarte są w obiekie, do którego można dodawać kolejne dane (nowych
-            pracowników). Do obsługi formularza wykorzystano bibliotekę
-            "react-select". Wersja demo dostępna pod
-            <a
-              href="https://condescending-wright-d5c262.netlify.app/?fbclid=IwAR1nwxrZ8seQYK2KnvDS741b6sE3ggv5xFaWuLDzTHX5GNLq4VgQIkoKWIs"
-            >
-              >>linkiem<<
-            </a>
-          </p>
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </body>
 </html>
