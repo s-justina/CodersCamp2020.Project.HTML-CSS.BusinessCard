@@ -55,13 +55,13 @@ czym się potencjalny współpracownik zajmuje, oraz jak wygląda na zdjęciu.
 Jeżeli profil będzie interesujący, a potencjalny klient zainteresowany usługą,
  wówczas na pewno sprawdzi co go czeka na dalszej części strony.
   
-   ![./.github/images/Project1Prepare1.png](./.github/images/profil.png)
+   ![./.github/images/profil.png](./.github/images/profil.png)
 
 Wizytówka zawarła informację o celach zawodowych autora, technologiach w których
 autor pracuje. Istotną część wizytówki stanowi krótkie przedstawienie
 zrealizowanych dotychczasowo projektów.
 
-  ![./.github/images/Project1Prepare1.png](./.github/images/technologie.png)
+  ![./.github/images/technologie.png](./.github/images/technologie.png)
     
 Wizytówka odkrywa również prywatną sferę ukazując jakie motto prowadzi autora
 projektu, oraz co lubi robić w wolnym czasie.
