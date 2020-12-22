@@ -1,5 +1,11 @@
 footer {
-  background: linear-gradient(-45deg, var(--orange), var(--pink), var(--light-blue), var(--turkus));
+  background: linear-gradient(
+    -45deg,
+    var(--orange),
+    var(--pink),
+    var(--light-blue),
+    var(--turkus)
+  );
   color: var(--gold);
   font-family: saira, sans-serif;
   text-align: center;

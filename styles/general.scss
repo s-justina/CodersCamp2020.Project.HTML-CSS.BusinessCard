@@ -6,7 +6,7 @@ sans-serif;
 font-family: 'Dancing Script', cursive;
 */
 
-:root{
+:root {
   --orange: #ee7752;
   --pink: #e73c7e;
   --light-blue: #23a6d5;
@@ -24,17 +24,17 @@ font-family: 'Dancing Script', cursive;
   box-sizing: border-box;
 }
 
-a{
+a {
   color: var(--dark-gold);
   text-decoration: none;
-  transition: .3s;
+  transition: 0.3s;
 }
 
-a:hover{
+a:hover {
   letter-spacing: 2px;
 }
 
-.wrapper{
+.wrapper {
   display: flex;
   flex-direction: column;
 }

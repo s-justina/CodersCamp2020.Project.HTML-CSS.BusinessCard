@@ -8,22 +8,21 @@
 }
 
 .slogan h1 {
-  font-family: 'Saira Condensed', sans-serif;
+  font-family: "Saira Condensed", sans-serif;
   font-size: 26px;
   text-transform: uppercase;
   margin-bottom: 25px;
-
 }
 
 .slogan p {
-  font-family: 'Saira', sans-serif;
+  font-family: "Saira", sans-serif;
   font-size: 18px;
 }
 
 .slogan p.author {
   margin-top: 20px;
   font-size: 12px;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
 
 .slogan .bg {
@@ -40,16 +39,13 @@
 }
 
 @media (min-width: 768px) {
-
   .slogan .bg {
     padding: 50px 10px;
-
   }
 
   .slogan h1 {
     font-size: 48px;
     margin-bottom: 35px;
-
   }
 
   .slogan p {
@@ -65,16 +61,13 @@
 }
 
 @media (min-width: 1024px) {
-
   .slogan .bg {
     padding: 80px 10px;
-
   }
 
   .slogan h1 {
     font-size: 60px;
     margin-bottom: 55px;
-
   }
 
   .slogan p {
