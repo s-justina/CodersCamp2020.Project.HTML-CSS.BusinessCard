@@ -1,19 +1,29 @@
 # CodersCamp 2020 - Projekt HTML & CSS
-**CodersCamp (coderscamp.edu.pl) - Największy otwarty kurs programowania webowego** 
 
-Gratulacje! 
-Skoro czytacie ten tekst, oznacza to, że dowiedliście swoich umiejętności ze znajomości HTML & CSS. 
-Zostaliście przydzieleni do zespołu, który będzie się uczył programowania i wykonywał prawdziwe aplikacje webowe.
-Teraz stajecie przed pierwszym większym wyzwaniem. 
-Technologie, o których się uczyliście, trzeba zastosować w praktyce.
-To pierwszy i ostatni na CodersCamp projekt, który będziecie robić w pojedynkę.
-Jednakże już macie cały zespół i mentora, który z pewnością będzie Was wspierał.
+## Spis treści
 
-## Projekt HTML & CSS — Wizytówka / Portfolio
+* Projekt — Wizytówka / Portfolio
+* Technologia projektu
+* Przegląd projektu
+* Dostępne skrypty
+* Wersja demo
 
-### Zasady wykonywania projektu (wspólne dla wszystkich grup i mentorów): 
+### Projekt — Wizytówka / Portfolio
 
-##### W projekcie każdy z uczestników powinien zaprezentować praktyczną znajomość poniższych zagadnień związanych z HTML & CSS:
+Projekt powstał w ramach kursu CodersCamp 2020. Jest to pierwszy projekt
+z serii projektów, które będą realizowane w tym kursie.
+Ma on charakter indywidualny.
+Celem projektu jest utrwalenie wiedzy dotyczącej HTML i CSS,
+bez korzystania z gotowych bibliotek oraz frameworków.
+
+### Technologia projektu
+
+Projekt powstał w oparciu o technologie HTML i CSS.
+W celu uporządkowania kodu styli, posłużono się task-runner'em Gulp, 
+który umożliwił wykorzystanie preprocesora CSS.
+Projekt stanowi wizytówkę, przybliżającą profil autora projektu.
+Wykonanie wizytówki obejęło niżej wymienione zagadnienia, w celu ich utrwalenia:
+
 - Box-model
 - Kaskadowość CSS
 - Selektory CSS
@@ -22,90 +32,59 @@ Jednakże już macie cały zespół i mentora, który z pewnością będzie Was 
 - Zapisywanie kolorów
 - Stylowanie tekstu
 - Zewnętrzne ikony/fonty (fontawesome, google fonts)
-- Flexbox i/lub CSS Grid
+- Flexbox
 - Position (absolute, relative)
 - Animacje keyframes
-- Formularz (wysłanie formularza może powodować przeładowanie strony, gdyż w kursie nie było jeszcze jego obsługi)
+- Formularz (wysłanie formularza powoduje przeładowanie strony)
 - Responsive Web Design
 
-Nie używaj JavaScriptu ani żadnego innego frameworka. 
-Nie używaj też gotowych bibliotek styli takich jak Bootstrap. 
-W trakcie przerabiania działu poznałeś wszystkie umiejętności, które pozwolą Ci wykonać Twoją wizytówkę od podstaw :) 
+## Przegląd projektu
 
-##### Sposób oceny projektu (dotyczy tylko projektu pierwszego):
-Zapewne interesuje Was, w jaki sposób projekt zostanie „zaliczony” i oceniony.
-Ocenianie będzie miało kilka etapów.
+Pozyskanie pierwszego klienta nie przychodzi łatwo. Dla klienta,
+który chce otrzymać produkt wysokiej jakości, nie jest ważna tylko firma,
+która spróbuje zrealizować jego wizję. Równie istotne jest też to, z 
+jakimi konkretnymi osobami przyjdzie mu współpracować przy wytwarzaniu
+oprogramowania. 
 
-- Kiedy skończycie pracę nad projektem, odnotujcie ten fakt w specjalnie przygotowanym formularzu — link otrzymacie od swojego mentora.
-Powinno to nastąpić najpóźniej o godzinie 23:59 dnia poprzedzającego prezentację projektu (data dostępna w harmonogramie kursu).
-- Spotkajcie się w wyznaczonym dniu całym zespołem wraz z mentorem (np. za pomocą Google Meet). W trakcie spotkania zaprezentujcie wykonane przez Was projekty.
-Forma prezentacji pozostaje dowolna (musi zmieścić się w 5 minutach + 5 minut na pytania). 
-Możecie przygotować jakieś slajdy, pokaz waszych talentów, czy nawet zaśpiewać — ale nie jest to konieczne. Na pewno musi zostać pokazana działająca strona internetowa, reszta wg Waszego uznania. 
-Jeśli robicie wizytówkę o sobie, to być może chcecie też opowiedzieć o swoich zainteresowaniach, żeby inni w zespole poznali Was lepiej :) ? 
-- Po prezentacji mentor Waszego zespołu oceni projekt wg kryteriów opisanych w specjalnym arkuszu — przykład takiego arkusza możecie zobaczyć [TUTAJ](https://docs.google.com/spreadsheets/d/1mjCi-oDXILKoCReqJlhGYP4NW-HVMCzvdcIy6ntnsog/edit?usp=sharing). 
-Pamiętajcie też odpowiednio opracować README.md Waszego projektu, tak aby prezentowało kto, co, jak i dlaczego zostało wykonane.
-Zawartość, którą macie tutaj aktualnie (to co teraz czytacie) można usunąć — znajdziecie ją zawsze w oryginalnym repozytorium, które forkowaliście.
-- Po zrecenzowaniu waszych projektów mentor powinien przekazać każdemu jego ocenę punktową i feedback jako uzasadnienie.     
+Wizytówka jest bardzo dobrym rozwiązaniem, jeśli chodzi o przedstawienie 
+swojego profilu potencjalnemu klientowi. Dlatego właśnie powstał projekt 
+portfolio.
 
+Na początku strony widnieje header, który przedstawia krótko informację o tym,
+czym się potencjalny współpracownik zajmuje, oraz jak wygląda na zdjęciu.
+Jeżeli profil będzie interesujący, a potencjalny klient zainteresowany usługą,
+ wówczas na pewno sprawdzi co go czeka na dalszej części strony.
+  
+   ![./.github/images/Project1Prepare1.png](./.github/images/profil.png)
 
-### Opis projektu
-Pozyskanie pierwszego klienta nie przychodzi łatwo. 
-Dla klienta, który chce otrzymać produkt wysokiej jakości, nie jest ważna tylko firma, która spróbuje zrealizować jego wizję. 
-Równie istotne jest też to, z jakimi konkretnymi osobami przyjdzie komuś współpracować przy wytwarzaniu oprogramowania.
-Dobrze, żeby Wasi przyszli klienci i wasz zespół trochę lepiej Was poznali.
-Dlatego jako pierwszy projekt do Waszego portfolio proponujemy przygotowanie strony — wizytówki.
-Motywem przewodnim powinniście być właśnie Wy sami lub o wasze zrealizowane projekty lub zainteresowania, najważniejsze umiejętności — nie koniecznie programistycznych! 
-Jesteś fotografem? Możesz przygotować stronę reklamującą swoje usługi. 
-Jako fryzjer czy mechanik, możesz zrobić podobnie. 
-Świat web designu stoi przed Tobą otworem. 
+Wizytówka zawarła informację o celach zawodowych autora, technologiach w których
+autor pracuje. Istotną część wizytówki stanowi krótkie przedstawienie
+zrealizowanych dotychczasowo projektów.
 
-W tym pierwszym, rozgrzewkowym projekcie pracujecie jeszcze osobno. 
-Pamiętajcie, że macie zespół i mentora, który jest tutaj, żeby Was wspierać przez cały czas trwania kursu. 
+  ![./.github/images/Project1Prepare1.png](./.github/images/technologie.png)
+    
+Wizytówka odkrywa również prywatną sferę ukazując jakie motto prowadzi autora
+projektu, oraz co lubi robić w wolnym czasie.
+Na końcu strony, standardowo znajduje się formularz kontaktowy wraz z 
+danymi kontaktowymi oraz stopka.
 
-Dajcie się lepiej poznać dzięki internetowi i swoim umiejętnością! :) 
+Formularz nie został obsłużony i powoduje przeładowanie strony.
+Zachowanie takie występuje ze względu na cel projektu.
 
-#### Jak rozpocząć pracę nad projektem
-Aby ułatwić prezentację projektu innym osobom, dobrze, gdyby był on dostępny bez problemów pod adresem strony internetowej.
-W tym przypadku większość pracy z tym związanej zrobiliśmy już za Ciebie. 
-Oto co musisz zrobić, żeby zobaczyć efekt i zacząć development:
+## Dostępne skrypty
 
-1. Wykonaj fork tego repozytorium do swojego własnego profilu. 
-Po kliknięciu przycisku pokazanego poniżej GitHub przeniesie Cię automatycznie na Twoją kopię tego repozytorium.
-To tutaj będziesz wykonywać swoją stronę.
-![./.github/images/Project1Prepare1.png](./.github/images/Project1Prepare1.png)
-1. Przejdź do zakładki Settings w Twoim repozytorium.
-![./.github/images/Project1Prepare2.png](./.github/images/Project1Prepare2.png)
-1. Znajdź w zakładce setting sekcję GitHub Pages i wybierz branch *main* jako source (na screenie dawna nazwa głównej gałęzi - master).
-![./.github/images/Project1Prepare3.png](./.github/images/Project1Prepare3.png)
-1. Po wyborze brancha *main*, zatwierdź ustawienia, klikając przycisk `Save`. 
-Wszystko powinno wyglądać tak jak w czerwonym polu poniżej.
-Dzięki temu aktywujesz GitHub Pages dla swojego repozytorium.
-![./.github/images/Project1Prepare4.png](./.github/images/Project1Prepare4.png)
-1. Znajdź sekcję GitHub Pages w zakładce Setting jeszcze raz.
-Teraz powinien znajdować się w tym miejscu link. Po kliknięciu zaprowadzi Cię do Twojej strony.
-Ten link możesz przekazać teraz kolegom z zespołu i mentorowi. 
-Będą mogli dać Ci cenne wskazówki i pomóc z błędami bez pobierania całego repozytorium.
-A Twoja strona jest od razu dostępna w internecie dla każdego, kto chciałby ją odwiedzić. I to kompletnie za darmo!
-![./.github/images/Project1Prepare5.png](./.github/images/Project1Prepare5.png)
-1. Jeśli po kliknięciu w link, pokazała Ci się strona o tej treści, to znaczy, że wszystko jest w porządku.
-![./.github/images/Project1Prepare6.png](./.github/images/Project1Prepare6.png)
+Po sklonowaniu bieżącego projektu pamiętaj, aby 
+uruchomić `npm install`, aby zainstalować wszystkie zależności.
 
-Od teraz każda zmiana, jaką commitujesz do głównego brancha, będzie się pokazywać pod tym adresem.
-Masz już działające środowisko, więc na co czekasz? Do dzieła!
+#### Uruchomienie projektu
+Projekt możesz uruchomić za pomocą komendy:
 
-### Porady odnośnie do projektu
+```npm start```
 
-#### Interfejs
-Możesz posłużyć się projektem interfejsu strony — wizytówki, wykonanym przez organizatorów projektu. 
-Jest to tylko dla ułatwienia Ci pracy.
-Możesz w trakcie implementacji go dowolnie przekształcać / zmieniać czy zrobić coś zupełnie innego.
-https://www.figma.com/file/WHtiMfcNHt4tc7mDamNBYa/CodersCamp2020-Wizytowka?node-id=0%3A1
-Pamiętaj też, że Twoje rozwiązanie musi być responsywne! 
-Czyli odpowiednio dostosowywać sposób wyświetlania treści do rozmiaru okna przeglądarki.
+Otwórz adres [http://localhost:3000](http://localhost:3000), aby wyświetlić go w przeglądarce.
 
-Inspiracją może być także [DevChallenge.io - Portfolio](https://devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt). 
-Pamiętaj tylko, że Ty korzystasz tutaj jedynie z HTML i CSS.
+## Wersja demo
 
-Przygotowane projekty interfejsu użytkownika są tutaj po to, żebyś bez problemów postawił swoje pierwsze kroki w praktycznym wykorzystaniu HTML i CSS.
-Jednakże zachęcamy do wykonania czegoś, co ukaże Twoje wnętrze :) 
-Dobrej zabawy!
+Wersja demo powstała przy pomocy GitHub Pages.
+Jeżeli chcesz zobaczyć wersję demo kliknij 
+w [>>link<<](https://s-justina.github.io/CodersCamp2020.Project.HTML-CSS.BusinessCard/).
