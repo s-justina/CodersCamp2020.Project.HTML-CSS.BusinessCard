@@ -14,3 +14,11 @@ footer {
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
+
+@media (min-width: 916px) {
+  footer .fab {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    transform: scale(1.5);
+  }
+}
